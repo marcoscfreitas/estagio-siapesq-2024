@@ -1,0 +1,50 @@
+.appContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.formContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  height: 400px;
+  width: 350px;
+  position: relative;
+}
+
+.formContainer label {
+  position: absolute;
+  left: 22%;
+}
+
+.formContainer input {
+  width: 55%;
+  padding: 1%;
+  border-style: groove;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#map {
+  position: absolute;
+  top: 6%;
+  right: 1.5%;
+  height: 600px;
+  width: 97%
+}
+
+.mapContainer p {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.mapContainer h2,ul,li {
+  position: absolute;
+  right: 0;
+}
